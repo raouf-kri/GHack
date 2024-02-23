@@ -15,8 +15,10 @@ const Nav = () => {
         <Link to="/Counseling">
           <h1 className=" text-xl cursor-pointer">Counseling</h1>
         </Link>
+        <Link to="/Recommendation">
+          <h1 className=" text-xl">Recommendation</h1>
+        </Link>
 
-        <h1 className=" text-xl">Recommendation</h1>
         <h1 className=" text-xl">Learning</h1>
       </div>
       <div className=" flex gap-4 ml-24 ">

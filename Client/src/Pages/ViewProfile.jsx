@@ -5,7 +5,6 @@ const ViewProfile = () => {
   return (
     <div>
       <Nav />
-
       <Profile />
     </div>
   )

@@ -1,4 +1,3 @@
-import ShopingCard from './ShopingCard'
 import { BasicPlan, PremiumPlan } from '../data/Data'
 import BasicCard from './BasicCard'
 import PremiumCard from './PremiumCard'

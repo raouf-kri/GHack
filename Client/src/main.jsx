@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 import Counseling from './Pages/Counseling.jsx'
 import ViewProfile from './Pages/ViewProfile.jsx'
+import Recommendation from './Pages/Recommendation.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/Register" element={<Register />} />
       <Route path="/Counseling" element={<Counseling />} />
       <Route path="/ViewProfile" element={<ViewProfile />} />
+      <Route path="/Recommendation" element={<Recommendation />} />
     </Routes>
   </BrowserRouter>
 )
