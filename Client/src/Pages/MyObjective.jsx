@@ -25,6 +25,33 @@ const MyObjective = () => {
             <ObjectiveCard key={card.title} {...card} />
           ))}
         </div>
+        <div>
+          <h2>Recommendation</h2>
+
+          <ol>
+            <li>
+              Allocate the majority of the budget for food and beverages,
+              prioritizing cost-effective options like bulk purchasing snacks
+              and drinks.
+            </li>
+            <li>
+              Seek out free or low-cost venues such as community centers or
+              coworking spaces.
+            </li>
+            <li>
+              Allocate a portion of the budget for prizes, considering sponsored
+              or donated items.
+            </li>
+            <li>
+              Utilize free marketing channels and seek sponsorships to minimize
+              promotional costs.
+            </li>
+            <li>
+              Utilize volunteers and keep track of expenses to stay within
+              budget.
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   )

@@ -1,10 +1,9 @@
-// import Login from './Pages/Login'
-import Counseling from './Pages/Counseling'
+import LandingPage from './Pages/LandingPage'
 
 function App() {
   return (
     <>
-      <Counseling />
+      <LandingPage />
     </>
   )
 }

@@ -1,7 +1,11 @@
-const ObjectiveCard = ({ title, description }) => {
+const ObjectiveCard = ({ title, description, time }) => {
   return (
-    <div className=" flex flex-col gap-3 border rounded-lg w-[250px] p-5 bg-blue-50">
-      <h1 className=" font-bold text-xl">{title}</h1>
+    <div className=" flex flex-col gap-3 border rounded-lg w-[300px] p-5 bg-blue-50">
+      <div className=" flex gap-10 justify-center items-center">
+        <h1 className=" font-bold text-xl">{title}</h1>
+        <h1>{time}</h1>
+      </div>
+
       <h1>{description}</h1>
       <div className=" flex gap-2">
         <img
