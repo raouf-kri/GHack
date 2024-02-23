@@ -1,9 +1,10 @@
-import Login from './Pages/Login'
+// import Login from './Pages/Login'
+import Counseling from './Pages/Counseling'
 
 function App() {
   return (
     <>
-      <Login />
+      <Counseling />
     </>
   )
 }

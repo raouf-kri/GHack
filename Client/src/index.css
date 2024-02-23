@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.overflow-x-auto::-webkit-scrollbar {
+  display: none;
+}
+.transparent-border {
+  border: 1px solid transparent;
+}
+
+.transparent-border:focus {
+  outline: none; /* Remove default focus outline */
+  border: 1px solid transparent;
+}

@@ -12,7 +12,10 @@ const Nav = () => {
         className=" relative top-2 left-20"
       />
       <div className=" flex gap-20">
-        <h1 className=" text-xl">Counseling</h1>
+        <Link to="/Counseling">
+          <h1 className=" text-xl cursor-pointer">Counseling</h1>
+        </Link>
+
         <h1 className=" text-xl">Recommendation</h1>
         <h1 className=" text-xl">Learning</h1>
       </div>
