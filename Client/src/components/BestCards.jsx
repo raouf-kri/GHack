@@ -1,4 +1,5 @@
 import CardButton from './CardButton'
+import { Link } from 'react-router-dom'
 
 const Cards = ({ imgURL, name, degree, description }) => {
   return (
@@ -37,7 +38,9 @@ const Cards = ({ imgURL, name, degree, description }) => {
       </div>
       <div className=" p-3 flex flex-col gap-2">
         <h1 className=" text-sm w-full  ">{description}</h1>
-        <CardButton />
+        <Link to="/ViewProfile">
+          <CardButton />
+        </Link>
       </div>
     </div>
   )

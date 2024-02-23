@@ -1,4 +1,5 @@
 import CardButton from './CardButton'
+import { Link } from 'react-router-dom'
 
 const AllCards = ({ imgURL, name, degree, description, language, price }) => {
   return (
@@ -43,7 +44,9 @@ const AllCards = ({ imgURL, name, degree, description, language, price }) => {
         <h1>
           For <b>{price}</b>
         </h1>
-        <CardButton />
+        <Link to="/ViewProfile">
+          <CardButton />
+        </Link>
       </div>
     </div>
   )

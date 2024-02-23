@@ -179,3 +179,21 @@ export const premium = [
     language: 'english',
   },
 ]
+
+export const BasicPlan = [
+  {
+    price: '$20',
+    title: 'Basic Plan',
+    description:
+      'Our goverment backed plan designed to keep your business legaly and secure',
+  },
+]
+
+export const PremiumPlan = [
+  {
+    price: '$59',
+    title: 'Basic Plan',
+    description:
+      'Our goverment backed plan designed to keep your business legaly and secure',
+  },
+]
