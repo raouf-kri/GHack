@@ -197,3 +197,20 @@ export const PremiumPlan = [
       'Our goverment backed plan designed to keep your business legaly and secure',
   },
 ]
+export const objectives = [
+  {
+    title: 'Hackathon',
+    description:
+      'i want to do a hackathon with 13 teams for three days and insure thier food ',
+  },
+  {
+    title: 'Hackathon',
+    description:
+      'i want to do a hackathon with 13 teams for three days and insure thier food ',
+  },
+  {
+    title: 'Hackathon',
+    description:
+      'i want to do a hackathon with 13 teams for three days and insure thier food ',
+  },
+]

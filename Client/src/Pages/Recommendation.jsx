@@ -1,7 +1,10 @@
-import Button from '../components/Button'
 import Nav from '../sections/Nav'
+import Popup from '../components/Popup'
+import { useState } from 'react'
 
 const Recommendation = () => {
+  const [buttonPopup, setButtonPopup] = useState(false)
+
   return (
     <div>
       <Nav />
@@ -16,13 +19,14 @@ const Recommendation = () => {
         <span className=" text-myblue text-4xl text-center ">
           <b>AI</b>
         </span>
-        <div className=" relative left-[600px] top-5">
-          <Button
-            label="Add objective"
-            background=" bg-myblue"
-            textColor="text-white"
-          />
-        </div>
+
+        <button
+          onClick={() => setButtonPopup(true)}
+          className=" bg-myblue text-white p-3 rounded-full relative top-6 w-40 left-[600px]"
+        >
+          Add objective
+        </button>
+        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}></Popup>
       </div>
     </div>
   )
